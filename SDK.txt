@@ -1,0 +1,6 @@
+// install Gcloud SDK 
+
+// Login from gcloud SDK 
+1. gcloud auth login
+2. gcloud auth list
+3. gcloud projects list
