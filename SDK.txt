@@ -19,7 +19,13 @@
 1. gcloud config set project PROJECT_ID
 2. gcloud compute zones list
 3. gcloud compute instances list
-4. gcloud compute ssh
+4. gcloud compute ssh INSTANCE_NAME
+5. gcloud compute disks list
+
+-- gcloud config set compute/zone ZONE (if you don't want to define zone every time)
+1. gcloud compute instances describe INSTANCE_NAME --zone=ZONE 
+2. gcloud compute instances STOP/START INSTANCE_NAME --zone=ZONE
+3. gcloud compute instances delete INSTANCE_NAME
 
 // create a vm 
 -- a very simple vm 
