@@ -32,3 +32,12 @@
 1. gcloud compute instances create INSTANCE_NAME --zone=ZONE 
 -- specify machine type
 1. gcloud compute instances create INSTANCE_NAME --zone=ZONE  --machine-type=MACHINE_TYPE
+
+// app engine (deploy)
+gcloud app deploy 
+
+-- describe
+gcloud app describe
+
+-- logs
+gcloud app log
